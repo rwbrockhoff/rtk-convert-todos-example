@@ -5,6 +5,9 @@ import { Provider } from 'react-redux'
 import App from './components/App'
 import rootReducer from './reducers'
 
+// Replaces createStore and automatically gives us access
+// to Redux Dev Tools
+
 const store = configureStore({
   reducer: rootReducer
 })
